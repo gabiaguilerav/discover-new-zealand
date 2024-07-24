@@ -1,3 +1,42 @@
 body {
   background: #d4d793;
+  scroll-behavior: smooth;
+  margin: 0 auto;
+}
+
+.navbar {
+  background: #8db1e8;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 10px;
+  color: #ffffff;
+  margin-right: 55px;
+}
+
+.nav-link {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 20px;
+  margin: auto 10px;
+  color: #ffffff;
+}
+
+.hero {
+  background-image: linear-gradient(
+      rgba(141, 177, 232, 0.64),
+      rgba(141, 177, 232, 0.64)
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/151/original/hero-pic.jpg?1721769956");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 300px 0;
+  width: 100%;
+  margin: 0;
 }
