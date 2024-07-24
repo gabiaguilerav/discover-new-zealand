@@ -2,11 +2,17 @@ body {
   background: #d4d793;
   scroll-behavior: smooth;
   margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .navbar {
   background: #8db1e8;
   padding: 15px 0;
+  text-align: center;
 }
 
 .navbar-brand {
@@ -15,7 +21,7 @@ body {
   font-size: 38px;
   line-height: 10px;
   color: #ffffff;
-  margin-right: 55px;
+  margin: 0 55px;
 }
 
 .nav-link {
@@ -36,25 +42,29 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 300px 0;
+  padding: 180px 0 360px 0;
   width: 100%;
-  margin: 0;
+}
+.hero-text {
+  display: inline-flexbox;
 }
 
 h2 {
   font-family: sans-serif;
   font-weight: 400;
   font-size: 167px;
-  line-height: 52px;
-  text-align: right;
+  text-align: center;
   color: #ffffff;
+
+  line-height: 0.8;
 }
 
 h1 {
   font-family: "Anton";
   font-weight: 400;
   font-size: 128px;
-  line-height: 52px;
+  text-align: center;
   color: #ffffff;
-  box-shadow: rgb(212, 215, 147, 0.53);
+
+  text-shadow: rgba(212, 215, 147, 0.53) 15px 15px;
 }
