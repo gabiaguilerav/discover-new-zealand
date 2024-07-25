@@ -47,19 +47,19 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">History</a>
+              <a class="nav-link" href="#map">Map</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Map</a>
+              <a class="nav-link" href="#history">History</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ideal Traveller</a>
+              <a class="nav-link" href="#traveller">Ideal Traveller</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Top activities</a>
+              <a class="nav-link" href="#activities">Top activities</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Important dates</a>
+              <a class="nav-link" href="#dates">Important dates</a>
             </li>
           </ul>
         </div>
@@ -74,65 +74,99 @@
         </div>
       </div>
 
-      <div class="map-section">
+      <div class="row map-section justify-content-center" id="map">
         <h3>MOST VISITED PLACES</h3>
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/160/original/map-edited.png?1721784434"
-          alt="Map of New Zealand"
-          class="img-fluid"
-        />
+        <div class="col-7 map">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/515/original/map-edited.png?1721929780"
+            alt="Map of New Zealand"
+            class="img-fluid"
+          />
+        </div>
       </div>
 
-      <div class="history-section">
+      <div class="history-section" id="history">
         <h3>HISTORY</h3>
-        <div>
-          The islands of New Zealand were the last large habitable land to be
-          settled by humans. Between about 1280 and 1350, Polynesians began to
-          settle in the islands and then subsequently developed a
-          distinctive Māori culture. In 1642, the Dutch explorer Abel
-          Tasman became the first European to sight and record New Zealand. In
-          1769 the British explorer Captain James Cook became the first European
-          to set foot on and map New Zealand. In 1840, representatives of the
-          United Kingdom and Māori chiefs signed the Treaty of Waitangi which
-          paved the way for Britain's declaration of sovereignty later that year
-          and the establishment of the Crown Colony of New Zealand in 1841.
-          Subsequently, a series of conflicts between the colonial government
-          and Māori tribes resulted in the alienation and confiscation of large
-          amounts of Māori land. New Zealand became a dominion in 1907; it
-          gained full statutory independence in 1947, retaining the monarch
-          as head of state.
-        </div>
-        <div>
-          Today, the majority of New Zealand's population of 5.25 million is
-          of European descent; the indigenous Māori are the largest minority,
-          followed by Asians and Pasifika. Reflecting this cultural mix, New
-          Zealand's culture is mainly derived from Māori and early British
-          settlers, with recent broadening of culture arising from
-          increased immigration. The official languages are English, Māori,
-          and New Zealand Sign Language, with the local dialect of English being
-          dominant. A developed country, it was the first to introduce a minimum
-          wage, and the first to give women the right to vote. It ranks very
-          highly in international measures of quality of life, human rights, and
-          it has one of the lowest levels of perceived corruption in the world.
-          It retains visible levels of inequality, having structural
-          disparities between its Māori and European populations.
+        <div class="row history-text justify-content-center">
+          <div class="col-4">
+            <p>
+              The islands of New Zealand were the last large habitable land to
+              be settled by humans. Between about 1280 and
+              1350, Polynesians began to settle in the islands and then
+              subsequently developed a distinctive Māori culture.
+            </p>
+            <p>
+              In 1642, the Dutch explorer Abel Tasman became the first European
+              to sight and record New Zealand. In 1769 the British
+              explorer Captain James Cook became the first European to set foot
+              on and map New Zealand. In 1840, representatives of the United
+              Kingdom and Māori chiefs signed the Treaty of Waitangi which paved
+              the way for Britain's declaration of sovereignty later that year
+              and the establishment of the Crown Colony of New Zealand in 1841.
+            </p>
+            <p>
+              Subsequently, a series of conflicts between the colonial
+              government and Māori tribes resulted in the alienation and
+              confiscation of large amounts of Māori land. New Zealand became a
+              dominion in 1907; it gained full statutory independence in 1947,
+              retaining the monarch as head of state.
+            </p>
+          </div>
+
+          <div class="col-4">
+            <p>
+              Today, the majority of New Zealand's population of 5.25 million is
+              of European descent; the indigenous Māori are the largest
+              minority, followed by Asians and Pasifika.
+            </p>
+            <p>
+              Reflecting this cultural mix, New Zealand's culture is mainly
+              derived from Māori and early British settlers, with recent
+              broadening of culture arising from increased immigration.
+            </p>
+            <p>
+              The official languages are English, Māori, and New Zealand Sign
+              Language, with the local dialect of English being dominant.
+            </p>
+            <p>
+              A developed country, it was the first to introduce a minimum wage,
+              and the first to give women the right to vote. It ranks very
+              highly in international measures of quality of life, human rights,
+              and it has one of the lowest levels of perceived corruption in the
+              world. It retains visible levels of inequality, having structural
+              disparities between its Māori and European populations.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="ideal-traveller-section">
-        <h3>IS THIS A GOOD DESTINATION FOR YOU?</h3>
-        <div>
-          Are you into sightseeing, adventure tourism, tramping (hiking)
-          and camping? New Zealand has numerous walking and hiking paths (often
-          created and maintained by the DOC), some of which, like the Milford
-          Track, have huge international recognition. There is also a walking
-          route the length of the country (Te Araroa) and the New Zealand Cycle
-          Trail. This is the perfect destination for people who love nature and
-          outdoors activities.
+      <div
+        class="row ideal-traveller-section justify-content-center"
+        id="traveller"
+      >
+        <div class="col-8">
+          <h3>IS THIS A GOOD <br />DESTINATION FOR YOU?</h3>
+        </div>
+
+        <div class="col-9 ideal-traveller-text">
+          <p>
+            Are you into sightseeing, adventure tourism, tramping (hiking)
+            and camping?
+          </p>
+          <p>
+            New Zealand has numerous walking and hiking paths (often created and
+            maintained by the DOC), some of which, like the Milford Track, have
+            huge international recognition. There is also a walking route the
+            length of the country (Te Araroa) and the New Zealand Cycle Trail.
+          </p>
+          <p>
+            This is the perfect destination for people who love nature and
+            outdoors activities.
+          </p>
         </div>
       </div>
 
-      <div class="activities-section">
+      <div class="activities-section" id="activities">
         <h3>TOP ACTIVITIES</h3>
         <div>
           From glaciers to beaches, whale-watching to wine-tasting, New Zealand
@@ -142,7 +176,7 @@
         <button class="btn btn-primary">MUST DO ACTIVITIES</button>
       </div>
 
-      <div class="holidays-section">
+      <div class="holidays-section" id="dates">
         <img
           src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/149/original/flag.png?1721769947"
           alt="New Zealand flag"

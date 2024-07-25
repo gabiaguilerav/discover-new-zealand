@@ -69,3 +69,84 @@ h1 {
   color: #ffffff;
   text-shadow: rgba(212, 215, 147, 0.53) 17px 18px;
 }
+
+.map-section {
+  padding: 200px 0;
+}
+
+.map-section h3 {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.map {
+  margin-top: 60px;
+}
+
+.map img {
+  transition: all 200ms ease-in-out;
+}
+
+.map img:hover {
+  transform: scale(1.2);
+}
+
+.history-section {
+  padding: 200px 0 185px 0;
+  background: #ffffff;
+}
+
+.history-section h3 {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 80px;
+  text-align: center;
+  color: #8db1e8;
+}
+
+.history-text {
+  margin-top: 60px;
+  gap: 32px;
+}
+
+.history-text p {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.ideal-traveller-section {
+  padding: 200px 0 160px 0;
+  background: #8db1e8;
+}
+
+.ideal-traveller-section h3 {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 94px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ideal-traveller-text {
+  margin-top: 60px;
+}
+
+.ideal-traveller-text p {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
