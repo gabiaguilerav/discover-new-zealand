@@ -168,47 +168,102 @@
 
       <div class="activities-section" id="activities">
         <h3>TOP ACTIVITIES</h3>
-        <div>
-          From glaciers to beaches, whale-watching to wine-tasting, New Zealand
-          has so much to offer. Not sure where to begin? Get started with these
-          places.
-        </div>
-        <button class="btn btn-primary">MUST DO ACTIVITIES</button>
-      </div>
-
-      <div class="holidays-section" id="dates">
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/149/original/flag.png?1721769947"
-          alt="New Zealand flag"
-          class="img-fluid"
-        />
-        <button class="btn btn-primary">LOOK UP THE DATES</button>
-      </div>
-
-      <footer>
-        <div>
-          <h4>ABOUT NEW ZEALAND</h4>
-          <ul>
-            <li>Best airports</li>
-            <li>Public transport</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4>ABOUT ME</h4>
-          <div>
-            Hello world! My name is Gabriela Aguilera and I've been learning
-            coding during the last months. You should look at
-            the open-sourced code of this project on Github.
+        <div class="row justify-content-center">
+          <div class="col-7">
+            <p>
+              From glaciers to beaches, whale-watching to wine-tasting,
+              New Zealand has so much to offer. Not sure where to begin? Get
+              started with these places.
+            </p>
           </div>
         </div>
 
-        <div>
-          <h4>ABOUT THIS WEBSITE</h4>
+        <div class="row justify-content-center">
+          <div class="col-4 text-center">
+            <button class="button-activities">
+              <a
+                href="https://www.newzealand.com/int/feature/new-zealand-must-do-experiences/"
+                target="_blank"
+                >MUST DO ACTIVITIES</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row holidays-section justify-content-center" id="dates">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-4 text-end"><h3>HOLIDAYS AND EVENTS</h3></div>
+          <div class="col-4">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/149/original/flag.png?1721769947"
+              alt="New Zealand flag"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+
+        <div class="col-4 text-center">
           <div>
-            I'm using this page as training of my code learning journey, more
-            specifically to master the creation of responsive pages using
-            <em>Bootstrap</em>.
+            <button class="button-holidays">
+              <a
+                href="https://nzhistory.govt.nz/culture/holidays-and-events"
+                target="_blank"
+                >LOOK UP THE DATES</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="row justify-content-center">
+          <div class="col-3">
+            <h4>ABOUT NEW ZEALAND</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://nzpocketguide.com/airport-arrive-new-zealand/"
+                  target="_blank"
+                  >Best airports</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.newzealand.com/int/public-transport-in-new-zealand/"
+                  target="_blank"
+                  >Public transport</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-5">
+            <h4>ABOUT ME</h4>
+            <div class="text-footer">
+              Hello world! My name is <a
+                href="https://gabiaguilerav.netlify.app/"
+                target="_blank"
+                >Gabriela Aguilera</a
+              > and I've been learning coding during the last months. You should
+              look at the <a
+                href="https://github.com/gabiaguilerav/discover-new-zealand.git"
+                target="_blank"
+                >open-sourced</a
+              > code of this project on
+              <a href="https://github.com/gabiaguilerav" target="_blank"
+                >Github</a
+              >.
+            </div>
+          </div>
+
+          <div class="col-4">
+            <h4>ABOUT THIS WEBSITE</h4>
+            <div class="text-footer">
+              I'm using this page as training of my code learning journey, to
+              master the creation of responsive pages using
+              <em>Bootstrap</em>.
+            </div>
           </div>
         </div>
       </footer>
