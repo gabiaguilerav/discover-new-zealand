@@ -1,3 +1,7 @@
+:root {
+  overflow-x: hidden;
+}
+
 body {
   background: #d4d793;
   scroll-behavior: smooth;
@@ -167,7 +171,7 @@ h1 {
 .activities-section p {
   margin: 60px 0;
   font-family: "Helvetica";
-  font-weight: 700;
+  font-weight: 300;
   font-size: 28px;
   line-height: 34px;
   text-align: center;
@@ -208,6 +212,7 @@ h1 {
   font-size: 90px;
   line-height: 100px;
   color: #8db1e8;
+  text-align: end;
 }
 
 .button-holidays {
@@ -266,4 +271,387 @@ footer a {
 
 footer a:hover {
   color: #ef6d6d;
+}
+
+@media (max-width: 1310px) {
+  .nav-link {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .hero {
+    padding: 140px 0 320px 0;
+  }
+
+  h2 {
+    font-size: 130px;
+    line-height: 0.8;
+  }
+
+  h1 {
+    font-size: 99px;
+    text-shadow: rgba(212, 215, 147, 0.53) 12px 13px;
+  }
+
+  .map-section {
+    padding: 160px 0;
+  }
+
+  .map-section h3 {
+    font-size: 66px;
+    line-height: 70px;
+  }
+
+  .map {
+    margin-top: 40px;
+  }
+
+  .history-section {
+    padding: 160px 0 145px 0;
+  }
+
+  .history-section h3 {
+    font-size: 66px;
+    line-height: 70px;
+  }
+
+  .history-text {
+    margin-top: 40px;
+    gap: 25px;
+  }
+
+  .history-text p {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .ideal-traveller-section {
+    padding: 160px 0 140px 0;
+    background: #8db1e8;
+  }
+
+  .ideal-traveller-section h3 {
+    font-size: 66px;
+    line-height: 70px;
+  }
+
+  .ideal-traveller-text {
+    margin-top: 40px;
+  }
+
+  .ideal-traveller-text p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .activities-section {
+    padding: 160px 0;
+  }
+
+  .activities-section h3 {
+    font-size: 66px;
+    line-height: 70px;
+  }
+
+  .activities-section p {
+    margin: 40px 0;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .button-activities {
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 33px;
+    padding: 26px 36px;
+    box-shadow: #ef6d6d 16px 16px;
+  }
+
+  .button-activities:hover {
+    box-shadow: #8db1e8 16px 16px;
+  }
+
+  .holidays-section {
+    padding: 160px 0;
+  }
+
+  .holidays-section h3 {
+    font-size: 66px;
+    line-height: 70px;
+  }
+
+  .button-holidays {
+    margin-top: 40px;
+    font-size: 34px;
+    line-height: 33px;
+    padding: 26px 36px;
+    box-shadow: #d4d793 16px 16px;
+  }
+
+  .button-holidays:hover {
+    box-shadow: #ef6d6d 16px 16px;
+  }
+
+  footer {
+    padding: 55px 70px;
+  }
+
+  h4 {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 11px;
+  }
+
+  .text-footer,
+  ul {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    padding: 140px 0 200px 0;
+  }
+
+  .button-activities {
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 31px;
+    padding: 23px 33px;
+    box-shadow: #ef6d6d 13px 13px;
+  }
+
+  .button-activities:hover {
+    box-shadow: #8db1e8 13px 13px;
+  }
+
+  .button-holidays {
+    font-weight: 200;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 31px;
+    padding: 23px 33px;
+    box-shadow: #d4d793 13px 13px;
+  }
+
+  .button-holidays:hover {
+    box-shadow: #ef6d6d 13px 13px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 35px;
+    margin: 0 35px;
+  }
+
+  h4 {
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding: 140px 0 160px 0;
+  }
+
+  h2 {
+    font-size: 100px;
+    line-height: 0.8;
+  }
+
+  h1 {
+    font-size: 77px;
+    text-shadow: rgba(212, 215, 147, 0.53) 10px 11px;
+  }
+
+  .map-section {
+    padding: 120px 0;
+  }
+
+  .map-section h3 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .map {
+    margin-top: 20px;
+  }
+
+  .history-section {
+    padding: 120px 0 105px 0;
+  }
+
+  .history-section h3 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .history-text {
+    margin-top: 20px;
+  }
+
+  .history-text p {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0px;
+  }
+
+  .ideal-traveller-section {
+    padding: 120px 0 100px 0;
+    background: #8db1e8;
+  }
+
+  .ideal-traveller-section h3 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .ideal-traveller-text {
+    margin-top: 20px;
+  }
+
+  .ideal-traveller-text p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+
+  .activities-section {
+    padding: 120px 0;
+  }
+
+  .activities-section h3 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .activities-section p {
+    margin: 20px 0;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .button-activities {
+    font-weight: 200;
+    margin-top: 6px;
+    font-size: 26px;
+    line-height: 31px;
+    padding: 20px 30px;
+    box-shadow: #ef6d6d 10px 10px;
+  }
+
+  .button-activities:hover {
+    box-shadow: #8db1e8 10px 1px;
+  }
+
+  .holidays-section {
+    padding: 120px 0;
+  }
+
+  .holidays-section h3 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .button-holidays {
+    font-weight: 200;
+    margin-top: 30px;
+    font-size: 26px;
+    line-height: 31px;
+    padding: 20px 30px;
+    box-shadow: #d4d793 10px 10px;
+  }
+
+  .button-holidays:hover {
+    box-shadow: #ef6d6d 10px 10px;
+  }
+
+  footer {
+    padding: 40px 50px;
+  }
+
+  h4 {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 11px;
+  }
+
+  .text-footer,
+  ul {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 575px) {
+  .holidays-section h3 {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 30px;
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 70px;
+    line-height: 0.8;
+  }
+
+  h1 {
+    font-size: 60px;
+    text-shadow: rgba(212, 215, 147, 0.53) 8px 9px;
+  }
+
+  .hero {
+    padding: 140px 0 100px 0;
+  }
+
+  .map-section {
+    padding: 90px 0;
+  }
+
+  .history-section {
+    padding: 90px 0 75px 0;
+  }
+
+  .ideal-traveller-section {
+    padding: 90px 0 70px 0;
+  }
+
+  .activities-section {
+    padding: 90px 0;
+  }
+
+  .holidays-section {
+    padding: 90px 0;
+  }
+
+  footer {
+    padding: 40px 50px;
+  }
+
+  h4 {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 11px;
+  }
+
+  .text-footer,
+  ul {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
